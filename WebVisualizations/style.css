@@ -1,3 +1,6 @@
 .col-md-9,.col-md-3{
     background-color: grey;
 }
+.col-md-7,.col-md-5{
+    background-color: rgb(160, 236, 255);
+}
