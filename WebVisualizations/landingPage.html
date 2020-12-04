@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Bootstrap Demo</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Nav Row -->
+    <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <a class="btn-secondary" href="https://jmwilliams3790.github.io/Web-Design-Challenge/" role="button"> <img src="Resources/assets/images/Logo.png" height="35" alt="Logo"></a>
+          </div>
+          <div class="col-md-3">
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-secondary">Comparison</button>
+                <button type="button" class="btn btn-secondary">Data</button>
+              
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-md-7">
+                <image src="Resources/assets/images/Temp_Lat.png" height="200" alt="Temp_Lat"></image>
+                The intent of this project was to analyze and understand how weather changes in various locations relative to latitude. In order to achieve this
+                analysis we pulled data from the OpenWeatherMap API to construct a dataset on over 500 cities.
+                <br/>
+                After creating out dataset we used Matplotlib to plot various aspects of weather versus latitude. The elements we used to come to our conclusion
+                included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis,
+                as well as breakdowns and explanations of the trends discovered.
+            </div>
+            <div class="col-md-4">
+                
+            </div>
+          </div>
+        </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
