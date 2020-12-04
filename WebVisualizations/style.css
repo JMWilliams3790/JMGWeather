@@ -1,6 +1,9 @@
 .col-md-9,.col-md-3{
     background-color: grey;
 }
-.col-md-7,.col-md-5{
+/* .col-md-7,.col-md-5{
     background-color: rgb(160, 236, 255);
+} */
+.dropdown-divider{
+    background-color: rgb(0, 0, 0);
 }
