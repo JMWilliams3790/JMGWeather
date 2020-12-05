@@ -1,4 +1,4 @@
-.container{
+.landing-content{
     background-color: #ACE7F8;
 }
 .scrollbar {
@@ -10,3 +10,12 @@
   .table-wrapper-scroll-y {
     display: block;
   }
+.nav{
+    background-color: grey
+}
+.table{
+    background-color: #ACE7F8;
+}
+.border{
+    background-color: #ACE7F8;
+}
