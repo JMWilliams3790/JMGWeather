@@ -28,7 +28,7 @@
 
 #floated{
     float: left;
-    width: 50%; 
-    height: auto; 
+    height: 50%; 
+    width: auto; 
     object-fit: contain; 
 }
