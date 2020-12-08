@@ -32,3 +32,6 @@
     width: 50%; 
     object-fit: contain; 
 }
+.navbar{
+    color: grey;
+}
